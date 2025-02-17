@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-17T18:57:41 SGT" name="Todo MVC report  Application Test Automation Test Suite" finished-at="2025-02-17T19:00:01 SGT" duration-ms="140707">
+    <groups>
+    </groups>
+    <test started-at="2025-02-17T18:57:41 SGT" name="Todo MVC App Test Cases" finished-at="2025-02-17T19:00:01 SGT" duration-ms="140707">
+      <class name="com.todo.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:57:41 SGT" name="setUp" finished-at="2025-02-17T18:57:55 SGT" duration-ms="14505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HomePageTitleTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:57:55 SGT" name="HomePageTitleTest" finished-at="2025-02-17T18:57:55 SGT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:57:55 SGT" name="tearDown" finished-at="2025-02-17T18:57:58 SGT" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:57:58 SGT" name="setUp" finished-at="2025-02-17T18:58:06 SGT" duration-ms="8086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createToDoListTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:06 SGT" name="createToDoListTest" finished-at="2025-02-17T18:58:10 SGT" duration-ms="4681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createToDoListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:10 SGT" name="tearDown" finished-at="2025-02-17T18:58:12 SGT" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:12 SGT" name="setUp" finished-at="2025-02-17T18:58:20 SGT" duration-ms="7815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="deleteToDotaskTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:20 SGT" name="deleteToDotaskTest" finished-at="2025-02-17T18:58:24 SGT" duration-ms="3877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteToDotaskTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:24 SGT" name="tearDown" finished-at="2025-02-17T18:58:26 SGT" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:26 SGT" name="setUp" finished-at="2025-02-17T18:58:33 SGT" duration-ms="6976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="editToDoListTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:33 SGT" name="editToDoListTest" finished-at="2025-02-17T18:58:37 SGT" duration-ms="3552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editToDoListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:37 SGT" name="tearDown" finished-at="2025-02-17T18:58:38 SGT" duration-ms="1586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:38 SGT" name="setUp" finished-at="2025-02-17T18:58:45 SGT" duration-ms="6520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="markTaskAsCompletedTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:45 SGT" name="markTaskAsCompletedTest" finished-at="2025-02-17T18:58:51 SGT" duration-ms="5909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markTaskAsCompletedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:51 SGT" name="tearDown" finished-at="2025-02-17T18:58:53 SGT" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:58:53 SGT" name="setUp" finished-at="2025-02-17T18:59:00 SGT" duration-ms="6776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="todoboxDisplayedTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:00 SGT" name="todoboxDisplayedTest" finished-at="2025-02-17T18:59:00 SGT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todoboxDisplayedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:00 SGT" name="tearDown" finished-at="2025-02-17T18:59:02 SGT" duration-ms="1635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:02 SGT" name="setUp" finished-at="2025-02-17T18:59:09 SGT" duration-ms="6945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyActiveTabTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:09 SGT" name="verifyActiveTabTest" finished-at="2025-02-17T18:59:23 SGT" duration-ms="14676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyActiveTabTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:23 SGT" name="tearDown" finished-at="2025-02-17T18:59:25 SGT" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:25 SGT" name="setUp" finished-at="2025-02-17T18:59:32 SGT" duration-ms="6975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCompletedTabTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:32 SGT" name="verifyCompletedTabTest" finished-at="2025-02-17T18:59:37 SGT" duration-ms="5434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompletedTabTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:37 SGT" name="tearDown" finished-at="2025-02-17T18:59:39 SGT" duration-ms="1501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:39 SGT" name="setUp" finished-at="2025-02-17T18:59:45 SGT" duration-ms="5897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTaskMarkedAsCompletedTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:45 SGT" name="verifyTaskMarkedAsCompletedTest" finished-at="2025-02-17T18:59:51 SGT" duration-ms="5891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTaskMarkedAsCompletedTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:51 SGT" name="tearDown" finished-at="2025-02-17T18:59:52 SGT" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:52 SGT" name="setUp" finished-at="2025-02-17T18:59:58 SGT" duration-ms="6475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyToDoListTest()[pri:1, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T18:59:58 SGT" name="verifyToDoListTest" finished-at="2025-02-17T19:00:00 SGT" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyToDoListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.todo.qa.testcases.HomePageTest@10e31a9a]" started-at="2025-02-17T19:00:00 SGT" name="tearDown" finished-at="2025-02-17T19:00:01 SGT" duration-ms="1754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.todo.qa.testcases.HomePageTest -->
+    </test> <!-- Todo MVC App Test Cases -->
+  </suite> <!-- Todo MVC report  Application Test Automation Test Suite -->
+</testng-results>

@@ -41,6 +41,8 @@ public class HomePage extends TestBase {
 	@FindBy(xpath = "//a[contains(text(),'Active')]")
 	WebElement activeLink;
 	
+	@FindBy(xpath = "//button[contains(text(),'Clear completed')]")
+	WebElement clearCompletedLink;
 	
 	public HomePage(){
 		PageFactory.initElements(driver, this);
@@ -273,7 +275,28 @@ public class HomePage extends TestBase {
 		        else flag = false;
 		       }
 			 return flag;
-		} 
+		}
+
+	public boolean verifyClearCompleted(List<String> completedTaskList) {
+		clearCompletedLink.click();	
+		boolean flag = false;
+		{
+			for (WebElement task : todoList) 
+				for(String completedTask : completedTaskList)	{
+		        if (task.isDisplayed() && !(task.getText().equalsIgnoreCase(completedTask)))       
+		            flag=true;
+		        else
+		            flag=false;		
+		        }
+		}
+		completedLink.click();
+		for (WebElement task : todoList) 
+		{	if (task.isDisplayed())
+			flag = false;
+		}
+		return flag;
+	} 
+	
 		
 	
 }

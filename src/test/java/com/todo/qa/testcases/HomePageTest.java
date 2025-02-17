@@ -119,7 +119,17 @@ public class HomePageTest extends TestBase {
 			Assert.assertTrue(completedPassed,"Task Not found in completed section");
 
 	}
-		
+	@Test(priority=1)
+	public void verifyClearCompletedTest() throws InvalidFormatException, InterruptedException{
+		 List<String> taskList = TestUtil.getTaskDataFromExcel(sheetName);
+			homePage.createTodoList(taskList);
+			List<String> completedTaskList = TestUtil.getTaskDataFromExcel(sheetNameCompleted);
+			homePage.markTaskAsCompleted(completedTaskList);
+			boolean clearcompleted = homePage.verifyClearCompleted(completedTaskList);
+			Assert.assertTrue(clearcompleted,"Task not completed or invalid task");
+
+
+	}
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();

@@ -26,7 +26,7 @@ public class TestUtil extends TestBase{
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 20;
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\gole_\\OneDrive\\Desktop\\TasklistData.xlsx";
+	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")+ "/src/main/java/com/todo/qa/config/TasklistData.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;
